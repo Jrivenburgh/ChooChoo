@@ -1,0 +1,59 @@
+header {
+    background-color: rgb(47, 0, 255);
+}
+
+body {
+    background-color: beige;
+}
+
+#trainstationname {
+    font-family: 'Bai+Jamjuree';
+    font-size: 70px;
+    text-shadow: 5px 5px 5px #aaa;
+}
+
+.jumbotron, .panel-heading {
+    background-image: linear-gradient(whitesmoke, lightblue, green);
+    
+}
+
+.text-center{
+    font-size: 55px;
+    font-family: 'Bai+Jamjuree';
+    text-shadow: 15px 15px 15px #aaa;
+}
+tr{
+  padding: 2px 2px 2px 2px;
+}
+strong{
+    font-family: 'Bai+Jamjuree';
+    font-size: 24px;
+    color: black;
+    text-shadow: 5px 5px 5px green;
+}
+button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    outline: 0;
+    -webkit-appearance: none;
+  }
+  
+ 
+  
+  button:hover {
+    top: -10px;
+    box-shadow: 0px 10px 10px rgba( 15, 165, 60, 0.2 );
+    
+    -webkit-transform: rotateX(20deg);
+       -moz-transform: rotateX(20deg);
+        -ms-transform: rotateX(20deg);
+            transform: rotateX(20deg);
+  }
+  
+  button:active {
+    top: 0px;
+    box-shadow: 0px 0px 0px rgba(165, 63, 15, 0);
+    background: rgb(57, 177, 2);
+  }
